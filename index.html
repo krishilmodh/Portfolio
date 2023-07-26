@@ -1,244 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/ad1ccc5d7d.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ad1ccc5d7d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="krishil.png" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p>Web Developer</p>
-                <h1>Hi, I'm <span>Krishil Modh</span><br>from Ahmedabad</h1>
-            </div>
+      <div class="container">
+        <nav>
+          <img src="resources/krishil.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span>Krishil Modh</span><br />from Ahmedabad</h1>
         </div>
+      </div>
     </div>
 
     <!-- -----------about  -->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="me.jpg" alt="Name">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>I am Pursuing B.E. in Computer Engineering from Gandhinagar Institute Of Technology
-                        I would like to work with firm where I can use my knowledge to add value to firm and
-                        learn from working professionals so that I can increase my knowledge about the Industry
-                    </p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Languages</span><br>Java and Advanced Java, Python</li>
-                            <li><span>Database</span><br>MySQL, SQL, MongoDb</li>
-                            <li><span>Web Development</span><br>HTML, CSS, Javascript, ReactJS, JQuery, Bootstrap, Tailwind CSS, Git and Github</li>
-                            <li><span>Application Development</span><br>Building Android Application(Java , XML)</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2 Weeks ReactJS Internship TechNishal</span><br>Fundamental of ReactJS</li>
-
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>B.E in C.E., CPI:7.46/10</span><br>2020-ongoing<br>Gandhinagar Institute Of
-                                Technology</li>
-                            <li><span>HSC, 47%</span><br>2019-2020<br>The H.B.Kapadia New High School,Ahmedabad </li>
-                            <li><span>SSC, 72%</span><br>2017-2018<br>Swastik Academy,Ahmedabad </li>
-
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="resources/me.jpg" alt="Name" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am Pursuing B.E. in Computer Engineering from Gandhinagar
+              Institute Of Technology I would like to work with firm where I can
+              use my knowledge to add value to firm and learn from working
+              professionals so that I can increase my knowledge about the
+              Industry
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Languages</span><br />Java and Advanced Java, Python
+                </li>
+                <li><span>Database</span><br />MySQL, SQL, MongoDb</li>
+                <li>
+                  <span>Web Development</span><br />HTML, CSS, Javascript,
+                  ReactJS, JQuery, Bootstrap, Tailwind CSS, Git and Github
+                </li>
+                <li>
+                  <span>Application Development</span><br />Building Android
+                  Application(Java , XML)
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2 Weeks ReactJS Internship TechNishal</span
+                  ><br />Fundamental of ReactJS
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>B.E in C.E., CPI:7.46/10</span
+                  ><br />2020-ongoing<br />Gandhinagar Institute Of Technology
+                </li>
+                <li>
+                  <span>HSC, 47%</span><br />2019-2020<br />The H.B.Kapadia New
+                  High School,Ahmedabad
+                </li>
+                <li>
+                  <span>SSC, 72%</span><br />2017-2018<br />Swastik
+                  Academy,Ahmedabad
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!--------Services-------->
 
     <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Developer</h2>
-                    <p>
-                        As a Developer I can work on front-end Development by using HTML, CSS and provide back-end
-                        services by using JavaScript, Java and Python.
-                    </p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-android"></i>
-                    <h2>App Developer</h2>
-                    <p>
-                        Being a Developer I can also build Android Application in Android Studio IDE by using Java as
-                        back-end and XML as front-end.
-                        I created many applications like carpool applications, College Application, TextileMart
-                        application. These projects are mentioned as below.
-                    </p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-rectangle-ad"></i>
-                    <h2>Digital Marketing</h2>
-                    <p>
-                        Boost your business's online presence with our comprehensive digital marketing services. From
-                        SEO and social media marketing to content creation and online advertising, we have the expertise
-                        to drive targeted traffic to your website, increase brand awareness, and generate valuable
-                        leads. Let us help you navigate the ever-changing digital landscape and achieve your marketing
-                        goals.
-                    </p>
-                    <a href="#">Learn more</a>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>
+              As a Developer I can work on front-end Development by using HTML,
+              CSS and provide back-end services by using JavaScript, Java and
+              Python.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-android"></i>
+            <h2>App Developer</h2>
+            <p>
+              Being a Developer I can also build Android Application in Android
+              Studio IDE by using Java as back-end and XML as front-end. I
+              created many applications like carpool applications, College
+              Application, TextileMart application. These projects are mentioned
+              as below.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-rectangle-ad"></i>
+            <h2>Digital Marketing</h2>
+            <p>
+              Boost your business's online presence with our comprehensive
+              digital marketing services. From SEO and social media marketing to
+              content creation and online advertising, we have the expertise to
+              drive targeted traffic to your website, increase brand awareness,
+              and generate valuable leads. Let us help you navigate the
+              ever-changing digital landscape and achieve your marketing goals.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
         </div>
+      </div>
     </div>
-
 
     <!---------------------PORTFOLIO-------------------->
 
     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="portfolio.jpg">
-                    <div class="layer">
-                        <h3>Portfolio</h3>
-                        <p>A visually appealing and responsive portfolio website built using HTML, CSS, and JavaScript
-                            to showcase a person's skills, projects, and accomplishments.</p>
-                        <a href=" https://krishilmodh.github.io/main-portfolio/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="todo.jpg">
-                    <div class="layer">
-                        <h3>To-Do List</h3>
-                        <p>A dynamic todo-list web application built with HTML, CSS, and JavaScript for efficient task
-                            management and organization.</p>
-                        <a href="https://krishilmodh.github.io/todo-list/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="enroll.png">
-                    <div class="layer">
-                        <h3>Enrollment Form</h3>
-                        <p>An interactive enrollment form designed using HTML, CSS, and JavaScript to collect and
-                            validate user information for enrollment purposes.</p>
-                        <a href="https://krishilmodh.github.io/enrollment_form/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="resources/portfolio.jpg" />
+            <div class="layer">
+              <h3>Portfolio</h3>
+              <p>
+                A visually appealing and responsive portfolio website built
+                using HTML, CSS, and JavaScript to showcase a person's skills,
+                projects, and accomplishments.
+              </p>
+              <a href=" https://krishilmodh.github.io/main-portfolio/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
             </div>
-            <a href="#" class="btn">See more</a>
+          </div>
+          <div class="work">
+            <img src="resources/todo.jpg" />
+            <div class="layer">
+              <h3>To-Do List</h3>
+              <p>
+                A dynamic todo-list web application built with HTML, CSS, and
+                JavaScript for efficient task management and organization.
+              </p>
+              <a href="https://krishilmodh.github.io/todo-list/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="resources/enroll.png" />
+            <div class="layer">
+              <h3>Enrollment Form</h3>
+              <p>
+                An interactive enrollment form designed using HTML, CSS, and
+                JavaScript to collect and validate user information for
+                enrollment purposes.
+              </p>
+              <a href="https://krishilmodh.github.io/enrollment_form/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
         </div>
+        <a href="#" class="btn">See more</a>
+      </div>
     </div>
 
     <!------------CONTACT------------------------->
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>krishilmodh@gmail.com</p>
-                    <p><i class="fa-solid fa-square-phone"></i>+91-8401499189</p>
-                    <div class="social-icons">
-                        <a href="https://www.facebook.com/krishil.modi.54/"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.linkedin.com/in/krishil-modh-348894202/"><i
-                                class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/krishil.modh/"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                    <a href="Resume.pdf" class="btn btn2">Download CV</a>
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                    <span id="msg"></span>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>krishilmodh@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>+91-8401499189</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/krishil.modi.54/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/krishil-modh-348894202/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/krishil.modh/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
             </div>
+            <a href="resources/Resume.pdf" class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
-        <div class="copyright">
-            <p>Copyright © 2023, Made by <i class="fa-solid fa-heart"></i> Krishil.</p>
-        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © 2023, Made by <i class="fa-solid fa-heart"></i> Krishil.
+        </p>
+      </div>
     </div>
 
     <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link")
-            }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab")
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab")
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
         }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
     </script>
 
     <script>
-        var sidemenu = document.getElementById("sidemenu");
+      var sidemenu = document.getElementById("sidemenu");
 
-        function openmenu() {
-            sidemenu.style.right = "0";
-        }
-        function closemenu() {
-            sidemenu.style.right = "-200px";
-        }
-
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
     </script>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyL6NLTGIH0bZWe7LYBVGST95iaxsMCAy6Wb4KIMWurIt1y796e2SEJY04RicvnhRez/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg");
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwHgHo6W-Dr-W3L8eBoc5gOKHdKogKu7eSuBK6XYUWxDuIhn1lfSAJvwNZKLc_Bjs1Rsw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
 
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => {
-                    msg.innerHTML = "Message sent successfully"
-                    setTimeout(function () {
-                        msg.innerHTML = ""
-                    }, 5000)
-                    form.reset()
-                })
-                .catch(error => console.error('Error!', error.message))
-        })
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
     </script>
-</body>
-
+  </body>
 </html>
